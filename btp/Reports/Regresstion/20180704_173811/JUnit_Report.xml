@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regresstion" time="18" tests="0" failures="1" errors="0">
+   <testsuite name="Regresstion" tests="0" failures="1" errors="0" time="18" timestamp="2018-07-04 17:38:12" hostname="nuthankumarkb - NIBC2646.nousinfo.com" id="Test Suites/Regresstion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalone_btp\\btp\\Reports\\Regresstion\\20180704_173811"/>
+         <property name="logFiles" value="E:\\katalone_btp\\btp\\Reports\\Regresstion\\20180704_173811\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nuthankumarkb - NIBC2646.nousinfo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.25.30"/>
+         <property name="sessionId" value="c8b1ad95-dd6d-44f7-b11c-b9b09f4f115c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/body_Go To Registration PageWe' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NIBC2646', ip: '192.168.25.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13576, moz:profile: C:\Users\nuthankumarkb\AppD..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8b1ad95-dd6d-44f7-b11c-b9b09f4f115c
+*** Element info: {Using=xpath, value=//body[(text() = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]' or . = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]')]})"/>
+         <system-out><![CDATA[2018-07-04 17:38:12 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to click on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/body_Go To Registration PageWe' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NIBC2646', ip: '192.168.25.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13576, moz:profile: C:\Users\nuthankumarkb\AppD..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8b1ad95-dd6d-44f7-b11c-b9b09f4f115c
+*** Element info: {Using=xpath, value=//body[(text() = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]' or . = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]')]})
+
+2018-07-04 17:38:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 17:38:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 17:38:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8888/' successfully
+
+2018-07-04 17:38:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8888/' successfully
+
+2018-07-04 17:38:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_Spring Security Tutorial/div_Welcome     Login' is clicked on
+
+2018-07-04 17:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_Spring Security Tutorial/div_Welcome     Login' is clicked on
+
+2018-07-04 17:38:22 - [TEST_STEP][PASSED] - setText: Text 'nuthan1@gmail.com' is set on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/input_email'
+
+2018-07-04 17:38:22 - [MESSAGE][PASSED] - Text 'nuthan1@gmail.com' is set on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/input_email'
+
+2018-07-04 17:38:22 - [TEST_STEP][PASSED] - setText: Text 'May@2018' is set on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/input_password'
+
+2018-07-04 17:38:22 - [MESSAGE][PASSED] - Text 'May@2018' is set on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/input_password'
+
+2018-07-04 17:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_Spring Security Tutorial/button_Login' is clicked on
+
+2018-07-04 17:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_Spring Security Tutorial/button_Login' is clicked on
+
+2018-07-04 17:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/span_Technical Trainings' is clicked on
+
+2018-07-04 17:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/span_Technical Trainings' is clicked on
+
+2018-07-04 17:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/button_JAVA' is clicked on
+
+2018-07-04 17:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/button_JAVA' is clicked on
+
+2018-07-04 17:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_OOPS' is clicked on
+
+2018-07-04 17:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_OOPS' is clicked on
+
+2018-07-04 17:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_Continue' is clicked on
+
+2018-07-04 17:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_Continue' is clicked on
+
+2018-07-04 17:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/input_question-1-answers' is clicked on
+
+2018-07-04 17:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/input_question-1-answers' is clicked on
+
+2018-07-04 17:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/div_A) one class inheriting fr' is clicked on
+
+2018-07-04 17:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/div_A) one class inheriting fr' is clicked on
+
+2018-07-04 17:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/input_question-2-answers' is clicked on
+
+2018-07-04 17:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/input_question-2-answers' is clicked on
+
+2018-07-04 17:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/input_question-3-answers' is clicked on
+
+2018-07-04 17:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/input_question-3-answers' is clicked on
+
+2018-07-04 17:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/div_Final Quiz' is clicked on
+
+2018-07-04 17:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/div_Final Quiz' is clicked on
+
+2018-07-04 17:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/input_question-4-answers' is clicked on
+
+2018-07-04 17:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/input_question-4-answers' is clicked on
+
+2018-07-04 17:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/input_question-5-answers' is clicked on
+
+2018-07-04 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/input_question-5-answers' is clicked on
+
+2018-07-04 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/div_Final Quiz' is clicked on
+
+2018-07-04 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/div_Final Quiz' is clicked on
+
+2018-07-04 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_Submit' is clicked on
+
+2018-07-04 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_Submit' is clicked on
+
+2018-07-04 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_Projects' is clicked on
+
+2018-07-04 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_Projects' is clicked on
+
+2018-07-04 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_View All projects' is clicked on
+
+2018-07-04 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_View All projects' is clicked on
+
+2018-07-04 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_Projects' is clicked on
+
+2018-07-04 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_Projects' is clicked on
+
+2018-07-04 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/div_All Projects' is clicked on
+
+2018-07-04 17:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/div_All Projects' is clicked on
+
+2018-07-04 17:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_Certifications' is clicked on
+
+2018-07-04 17:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_Certifications' is clicked on
+
+2018-07-04 17:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/div_Microsoft Technology Assoc' is clicked on
+
+2018-07-04 17:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/div_Microsoft Technology Assoc' is clicked on
+
+2018-07-04 17:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/div_Microsoft Solutions Develo' is clicked on
+
+2018-07-04 17:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/div_Microsoft Solutions Develo' is clicked on
+
+2018-07-04 17:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_View Details' is clicked on
+
+2018-07-04 17:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/a_Logout' is clicked on
+
+2018-07-04 17:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/a_Logout' is clicked on
+
+2018-07-04 17:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginbtp/Page_/button_Logout' is clicked on
+
+2018-07-04 17:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbtp/Page_/button_Logout' is clicked on
+
+2018-07-04 17:38:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/body_Go To Registration PageWe' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NIBC2646', ip: '192.168.25.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13576, moz:profile: C:\Users\nuthankumarkb\AppD..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8b1ad95-dd6d-44f7-b11c-b9b09f4f115c
+*** Element info: {Using=xpath, value=//body[(text() = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]' or . = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]')]})
+
+2018-07-04 17:38:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 17:38:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/body_Go To Registration PageWe' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NIBC2646', ip: '192.168.25.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13576, moz:profile: C:\Users\nuthankumarkb\AppD..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8b1ad95-dd6d-44f7-b11c-b9b09f4f115c
+*** Element info: {Using=xpath, value=//body[(text() = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]' or . = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]')]})]]></system-out>
+         <system-err><![CDATA[2018-07-04 17:38:12 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to click on object 'Object Repository/loginbtp/Page_Spring Security Tutorial/body_Go To Registration PageWe' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NIBC2646', ip: '192.168.25.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13576, moz:profile: C:\Users\nuthankumarkb\AppD..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8b1ad95-dd6d-44f7-b11c-b9b09f4f115c
+*** Element info: {Using=xpath, value=//body[(text() = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]' or . = '
+	
+		Go To Registration Page
+		
+	
+	
+		
+		
+			Welcome
+			
+			 
+			  
+			  
+				
+			
+			Login
+		
+	
+
+/html[1]/body[1]')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 17:38:12 - [TEST_SUITE][INCOMPLETE] - Regresstion: null]]></system-out>
+      <system-err><![CDATA[2018-07-04 17:38:12 - [TEST_SUITE][INCOMPLETE] - Regresstion: null]]></system-err>
+   </testsuite>
+</testsuites>

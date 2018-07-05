@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regresstion,Firefox 60.0,ffasfsd,2018-07-04 18:18:20,2018-07-04 18:18:27,7.008s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/login,Firefox 60.0,btp login test,2018-07-04 18:18:20,2018-07-04 18:18:27,6.436s,FAILED
+openBrowser,Firefox 60.0,,2018-07-04 18:18:20,2018-07-04 18:18:25,4.437s,PASSED
+navigateToUrl,Firefox 60.0,,2018-07-04 18:18:25,2018-07-04 18:18:26,1.702s,PASSED
+click,Firefox 60.0,,2018-07-04 18:18:26,2018-07-04 18:18:27,0.121s,FAILED
